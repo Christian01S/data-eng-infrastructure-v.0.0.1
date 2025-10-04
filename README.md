@@ -59,13 +59,6 @@ Then download the new tags from the remote server
 git fetch --tags
 ```
 
-Finally you can switch to the latest release (tag)
-
-```bash
-git checkout $(git tag | sort -V | tail -1)
-```
-### [0.2.0](https://code.dbis-pro1.fernuni-hagen.de/pub-access/data-engineering-infrastructure/-/tree/v0.2.0) (2022-09-30)
-
 **Improvements**
 
 - Support for arm64 architecture added
